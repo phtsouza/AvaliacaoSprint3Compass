@@ -1,0 +1,20 @@
+D:\OneDrive - sga.pucminas.br\Área de Trabalho\UolCompasso_Sprint3_Prova-master\SistemaDeAgendamento-master\SistemaAgendamento.Core\bin\Debug\netcoreapp3.1\SistemaAgendamento.Core.deps.json
+D:\OneDrive - sga.pucminas.br\Área de Trabalho\UolCompasso_Sprint3_Prova-master\SistemaDeAgendamento-master\SistemaAgendamento.Core\bin\Debug\netcoreapp3.1\SistemaAgendamento.Core.dll
+D:\OneDrive - sga.pucminas.br\Área de Trabalho\UolCompasso_Sprint3_Prova-master\SistemaDeAgendamento-master\SistemaAgendamento.Core\bin\Debug\netcoreapp3.1\SistemaAgendamento.Core.pdb
+D:\OneDrive - sga.pucminas.br\Área de Trabalho\UolCompasso_Sprint3_Prova-master\SistemaDeAgendamento-master\SistemaAgendamento.Core\obj\Debug\netcoreapp3.1\SistemaAgendamento.Core.csproj.AssemblyReference.cache
+D:\OneDrive - sga.pucminas.br\Área de Trabalho\UolCompasso_Sprint3_Prova-master\SistemaDeAgendamento-master\SistemaAgendamento.Core\obj\Debug\netcoreapp3.1\SistemaAgendamento.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive - sga.pucminas.br\Área de Trabalho\UolCompasso_Sprint3_Prova-master\SistemaDeAgendamento-master\SistemaAgendamento.Core\obj\Debug\netcoreapp3.1\SistemaAgendamento.Core.AssemblyInfoInputs.cache
+D:\OneDrive - sga.pucminas.br\Área de Trabalho\UolCompasso_Sprint3_Prova-master\SistemaDeAgendamento-master\SistemaAgendamento.Core\obj\Debug\netcoreapp3.1\SistemaAgendamento.Core.AssemblyInfo.cs
+D:\OneDrive - sga.pucminas.br\Área de Trabalho\UolCompasso_Sprint3_Prova-master\SistemaDeAgendamento-master\SistemaAgendamento.Core\obj\Debug\netcoreapp3.1\SistemaAgendamento.Core.csproj.CoreCompileInputs.cache
+D:\OneDrive - sga.pucminas.br\Área de Trabalho\UolCompasso_Sprint3_Prova-master\SistemaDeAgendamento-master\SistemaAgendamento.Core\obj\Debug\netcoreapp3.1\SistemaAgendamento.Core.dll
+D:\OneDrive - sga.pucminas.br\Área de Trabalho\UolCompasso_Sprint3_Prova-master\SistemaDeAgendamento-master\SistemaAgendamento.Core\obj\Debug\netcoreapp3.1\SistemaAgendamento.Core.pdb
+C:\Users\phtso\source\repos\AvaliacaoSprint3\Quest_3\SistemaAgendamento.Core\bin\Debug\netcoreapp3.1\SistemaAgendamento.Core.deps.json
+C:\Users\phtso\source\repos\AvaliacaoSprint3\Quest_3\SistemaAgendamento.Core\bin\Debug\netcoreapp3.1\SistemaAgendamento.Core.dll
+C:\Users\phtso\source\repos\AvaliacaoSprint3\Quest_3\SistemaAgendamento.Core\bin\Debug\netcoreapp3.1\SistemaAgendamento.Core.pdb
+C:\Users\phtso\source\repos\AvaliacaoSprint3\Quest_3\SistemaAgendamento.Core\obj\Debug\netcoreapp3.1\SistemaAgendamento.Core.csproj.AssemblyReference.cache
+C:\Users\phtso\source\repos\AvaliacaoSprint3\Quest_3\SistemaAgendamento.Core\obj\Debug\netcoreapp3.1\SistemaAgendamento.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phtso\source\repos\AvaliacaoSprint3\Quest_3\SistemaAgendamento.Core\obj\Debug\netcoreapp3.1\SistemaAgendamento.Core.AssemblyInfoInputs.cache
+C:\Users\phtso\source\repos\AvaliacaoSprint3\Quest_3\SistemaAgendamento.Core\obj\Debug\netcoreapp3.1\SistemaAgendamento.Core.AssemblyInfo.cs
+C:\Users\phtso\source\repos\AvaliacaoSprint3\Quest_3\SistemaAgendamento.Core\obj\Debug\netcoreapp3.1\SistemaAgendamento.Core.csproj.CoreCompileInputs.cache
+C:\Users\phtso\source\repos\AvaliacaoSprint3\Quest_3\SistemaAgendamento.Core\obj\Debug\netcoreapp3.1\SistemaAgendamento.Core.dll
+C:\Users\phtso\source\repos\AvaliacaoSprint3\Quest_3\SistemaAgendamento.Core\obj\Debug\netcoreapp3.1\SistemaAgendamento.Core.pdb

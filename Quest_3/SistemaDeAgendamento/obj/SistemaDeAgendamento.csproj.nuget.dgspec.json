@@ -1,0 +1,289 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\phtso\\source\\repos\\AvaliacaoSprint3\\Quest_3\\SistemaDeAgendamento\\SistemaDeAgendamento.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\phtso\\source\\repos\\AvaliacaoSprint3\\Quest_3\\SistemaAgendamento.Core\\SistemaAgendamento.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\phtso\\source\\repos\\AvaliacaoSprint3\\Quest_3\\SistemaAgendamento.Core\\SistemaAgendamento.Core.csproj",
+        "projectName": "SistemaAgendamento.Core",
+        "projectPath": "C:\\Users\\phtso\\source\\repos\\AvaliacaoSprint3\\Quest_3\\SistemaAgendamento.Core\\SistemaAgendamento.Core.csproj",
+        "packagesPath": "C:\\Users\\phtso\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\phtso\\source\\repos\\AvaliacaoSprint3\\Quest_3\\SistemaAgendamento.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\phtso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\phtso\\source\\repos\\AvaliacaoSprint3\\Quest_3\\SistemaAgendamento.Infrastructure\\SistemaAgendamento.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\phtso\\source\\repos\\AvaliacaoSprint3\\Quest_3\\SistemaAgendamento.Infrastructure\\SistemaAgendamento.Infrastructure.csproj",
+        "projectName": "SistemaAgendamento.Infrastructure",
+        "projectPath": "C:\\Users\\phtso\\source\\repos\\AvaliacaoSprint3\\Quest_3\\SistemaAgendamento.Infrastructure\\SistemaAgendamento.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\phtso\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\phtso\\source\\repos\\AvaliacaoSprint3\\Quest_3\\SistemaAgendamento.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\phtso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\phtso\\source\\repos\\AvaliacaoSprint3\\Quest_3\\SistemaAgendamento.Core\\SistemaAgendamento.Core.csproj": {
+                "projectPath": "C:\\Users\\phtso\\source\\repos\\AvaliacaoSprint3\\Quest_3\\SistemaAgendamento.Core\\SistemaAgendamento.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\phtso\\source\\repos\\AvaliacaoSprint3\\Quest_3\\SistemaAgendamento.Service\\SistemaAgendamento.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\phtso\\source\\repos\\AvaliacaoSprint3\\Quest_3\\SistemaAgendamento.Service\\SistemaAgendamento.Service.csproj",
+        "projectName": "SistemaAgendamento.Service",
+        "projectPath": "C:\\Users\\phtso\\source\\repos\\AvaliacaoSprint3\\Quest_3\\SistemaAgendamento.Service\\SistemaAgendamento.Service.csproj",
+        "packagesPath": "C:\\Users\\phtso\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\phtso\\source\\repos\\AvaliacaoSprint3\\Quest_3\\SistemaAgendamento.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\phtso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\phtso\\source\\repos\\AvaliacaoSprint3\\Quest_3\\SistemaAgendamento.Core\\SistemaAgendamento.Core.csproj": {
+                "projectPath": "C:\\Users\\phtso\\source\\repos\\AvaliacaoSprint3\\Quest_3\\SistemaAgendamento.Core\\SistemaAgendamento.Core.csproj"
+              },
+              "C:\\Users\\phtso\\source\\repos\\AvaliacaoSprint3\\Quest_3\\SistemaAgendamento.Infrastructure\\SistemaAgendamento.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\phtso\\source\\repos\\AvaliacaoSprint3\\Quest_3\\SistemaAgendamento.Infrastructure\\SistemaAgendamento.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\phtso\\source\\repos\\AvaliacaoSprint3\\Quest_3\\SistemaDeAgendamento\\SistemaDeAgendamento.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\phtso\\source\\repos\\AvaliacaoSprint3\\Quest_3\\SistemaDeAgendamento\\SistemaDeAgendamento.csproj",
+        "projectName": "SistemaDeAgendamento",
+        "projectPath": "C:\\Users\\phtso\\source\\repos\\AvaliacaoSprint3\\Quest_3\\SistemaDeAgendamento\\SistemaDeAgendamento.csproj",
+        "packagesPath": "C:\\Users\\phtso\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\phtso\\source\\repos\\AvaliacaoSprint3\\Quest_3\\SistemaDeAgendamento\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\phtso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\phtso\\source\\repos\\AvaliacaoSprint3\\Quest_3\\SistemaAgendamento.Core\\SistemaAgendamento.Core.csproj": {
+                "projectPath": "C:\\Users\\phtso\\source\\repos\\AvaliacaoSprint3\\Quest_3\\SistemaAgendamento.Core\\SistemaAgendamento.Core.csproj"
+              },
+              "C:\\Users\\phtso\\source\\repos\\AvaliacaoSprint3\\Quest_3\\SistemaAgendamento.Service\\SistemaAgendamento.Service.csproj": {
+                "projectPath": "C:\\Users\\phtso\\source\\repos\\AvaliacaoSprint3\\Quest_3\\SistemaAgendamento.Service\\SistemaAgendamento.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
