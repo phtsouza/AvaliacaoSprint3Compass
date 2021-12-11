@@ -1,0 +1,274 @@
+[
+  {
+    "Id": 1,
+    "Name": "The Tallest Man on Earth"
+  },
+  {
+    "Id": 2,
+    "Name": "Dave Matthews"
+  },
+  {
+    "Id": 3,
+    "Name": "Sublime"
+  },
+  {
+    "Id": 4,
+    "Name": "Tom Petty"
+  },
+  {
+    "Id": 5,
+    "Name": "Violent Femmes"
+  },
+  {
+    "Id": 6,
+    "Name": "Don McLean"
+  },
+  {
+    "Id": 7,
+    "Name": "Van Morrison"
+  },
+  {
+    "Id": 8,
+    "Name": "Jimmy Buffett"
+  },
+  {
+    "Id": 9,
+    "Name": "Jack Johnson"
+  },
+  {
+    "Id": 10,
+    "Name": "The Lumineers"
+  },
+  {
+    "Id": 11,
+    "Name": "Conor Oberst"
+  },
+  {
+    "Id": 12,
+    "Name": "fun."
+  },
+  {
+    "Id": 13,
+    "Name": "Donovan"
+  },
+  {
+    "Id": 14,
+    "Name": "Harry Chapin"
+  },
+  {
+    "Id": 15,
+    "Name": "Radiohead"
+  },
+  {
+    "Id": 16,
+    "Name": "Johnny Cash"
+  },
+  {
+    "Id": 17,
+    "Name": "Mason Jennings"
+  },
+  {
+    "Id": 18,
+    "Name": "Regina Spektor"
+  },
+  {
+    "Id": 19,
+    "Name": "Oasis"
+  },
+  {
+    "Id": 20,
+    "Name": "Journey"
+  },
+  {
+    "Id": 21,
+    "Name": "Elvis Perkins"
+  },
+  {
+    "Id": 22,
+    "Name": "First Aid Kit"
+  },
+  {
+    "Id": 23,
+    "Name": "Cat Stevens"
+  },
+  {
+    "Id": 24,
+    "Name": "Blitzen Trapper"
+  },
+  {
+    "Id": 25,
+    "Name": "Emmylou Harris"
+  },
+  {
+    "Id": 26,
+    "Name": "Arcade Fire"
+  },
+  {
+    "Id": 27,
+    "Name": "Neil Young"
+  },
+  {
+    "Id": 28,
+    "Name": "Whitesnake"
+  },
+  {
+    "Id": 29,
+    "Name": "Gin Blossoms"
+  },
+  {
+    "Id": 30,
+    "Name": "Train"
+  },
+  {
+    "Id": 31,
+    "Name": "Father John Misty"
+  },
+  {
+    "Id": 32,
+    "Name": "Edward Sharpe & The Magnetic Zeros"
+  },
+  {
+    "Id": 33,
+    "Name": "The Eagles"
+  },
+  {
+    "Id": 34,
+    "Name": "The White Stripes"
+  },
+  {
+    "Id": 35,
+    "Name": "OAR"
+  },
+  {
+    "Id": 36,
+    "Name": "Taylor Swift"
+  },
+  {
+    "Id": 37,
+    "Name": "Weezer"
+  },
+  {
+    "Id": 38,
+    "Name": "Jason Mraz"
+  },
+  {
+    "Id": 39,
+    "Name": "John Mellencamp"
+  },
+  {
+    "Id": 40,
+    "Name": "Bill Withers"
+  },
+  {
+    "Id": 41,
+    "Name": "Of Monsters and Men"
+  },
+  {
+    "Id": 42,
+    "Name": "The Avett Brothers"
+  },
+  {
+    "Id": 43,
+    "Name": "The Kinks"
+  },
+  {
+    "Id": 44,
+    "Name": "Ricky Nelson"
+  },
+  {
+    "Id": 45,
+    "Name": "Paul Simon"
+  },
+  {
+    "Id": 46,
+    "Name": "Metallica"
+  },
+  {
+    "Id": 47,
+    "Name": "Miley Cyrus"
+  },
+  {
+    "Id": 48,
+    "Name": "Guns N' Roses"
+  },
+  {
+    "Id": 49,
+    "Name": "Bob Marley"
+  },
+  {
+    "Id": 50,
+    "Name": "Elton John"
+  },
+  {
+    "Id": 51,
+    "Name": "She & Him"
+  },
+  {
+    "Id": 52,
+    "Name": "Bob Dylan"
+  },
+  {
+    "Id": 53,
+    "Name": "Keane"
+  },
+  {
+    "Id": 54,
+    "Name": "David Bowie"
+  },
+  {
+    "Id": 55,
+    "Name": "Stealers Wheel"
+  },
+  {
+    "Id": 56,
+    "Name": "Bryan Adams"
+  },
+  {
+    "Id": 57,
+    "Name": "Lynyrd Skynyrd"
+  },
+  {
+    "Id": 58,
+    "Name": "Ben Harper"
+  },
+  {
+    "Id": 59,
+    "Name": "Dispatch"
+  },
+  {
+    "Id": 60,
+    "Name": "Chvrches"
+  },
+  {
+    "Id": 61,
+    "Name": "The Band"
+  },
+  {
+    "Id": 62,
+    "Name": "The Church"
+  },
+  {
+    "Id": 63,
+    "Name": "Coldplay"
+  },
+  {
+    "Id": 64,
+    "Name": "John Lennon"
+  },
+  {
+    "Id": 65,
+    "Name": "Billy Bragg & Wilco"
+  },
+  {
+    "Id": 66,
+    "Name": "The Beatles"
+  },
+  {
+    "Id": 67,
+    "Name": "Vampire Weekend"
+  },
+  {
+    "Id": 68,
+    "Name": "DeVotchKa"
+  }
+]
