@@ -1,6 +1,7 @@
 ﻿using AnimatedThread.Models;
 using Newtonsoft.Json;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -52,12 +53,14 @@ namespace AnimatedThread
 
                 Console.WriteLine("-- INICIANDO PROCESSAMENTO --");
                 //TODO: Iniciar tarefas abaixo desta linha
-                Output output = await PreencheOutputAsync(j);
-                peopleOutpout.Add(output);
-                
-
-                j++;
-                //Console.ReadLine();
+                Parallel.Invoke(
+                    async () =>
+                    {
+                        Output output = await PreencheOutputAsync(j);
+                        peopleOutpout.Add(output);
+                        j++;
+                    }
+                    );
 
             }
             var dadosJson = JsonConvert.SerializeObject(peopleOutpout, Formatting.Indented);
@@ -76,11 +79,35 @@ namespace AnimatedThread
             var songs = database.GetSongs().ToList();
             var personSong = await database.GetPersonSongsAsync(person[IdPerson].Id);
 
+            List<string> listaMusicas = new List<string>();
+
+            for(int i=0; i< personSong.SongsIds.Length; i++)
+            {
+                listaMusicas.Add(songs[personSong.SongsIds[i]].Name);
+            }
+
+            List<Song> musicas = new List<Song>();
+
+            for(int j = 0; j<songs.Count; j++)
+            {
+                if(artist[IdPerson].Id == songs[j].ArtistId)
+                {
+                    musicas.Add(songs[j]);
+                }
+            }
+
+            var musicArtist = new ArtistSongs(artist[IdPerson], musicas);
+
+            List<ArtistSongs> musicasArtistas = new List<ArtistSongs>();
+            musicasArtistas.Add(musicArtist);
+
             Output output = new Output(person[IdPerson].Name,
                 person[IdPerson].Age,
                 songs[personSong.FavoriteSongId].Name,
                 artist[songs[IdPerson].ArtistId].Name,
-                songs[personSong.FavoriteSongId].Year
+                songs[personSong.FavoriteSongId].Year,
+                listaMusicas,
+                musicasArtistas
                 );
 
             return output;

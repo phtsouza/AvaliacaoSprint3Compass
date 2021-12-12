@@ -5,15 +5,15 @@ namespace AnimatedThread
 {
     public class Output
     {
-        public Output(string personName, int personAge, string favoriteSong, string favoriteSongArtist, int favoriteSongYear)
+        public Output(string personName, int personAge, string favoriteSong, string favoriteSongArtist, int favoriteSongYear, IEnumerable<string> otherSongs, IEnumerable<ArtistSongs> artistSongs)
         {
             PersonName = personName;
             PersonAge = personAge;
             FavoriteSong = favoriteSong;
             FavoriteSongArtist = favoriteSongArtist;
             FavoriteSongYear = favoriteSongYear;
-            //OtherSongs = otherSongs;
-            //ArtistSongs = artistSongs;
+            OtherSongs = otherSongs;
+            ArtistSongs = artistSongs;
         }
 
         public string PersonName { get; private set; }
