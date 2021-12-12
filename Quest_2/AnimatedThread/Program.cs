@@ -52,18 +52,7 @@ namespace AnimatedThread
 
                 Console.WriteLine("-- INICIANDO PROCESSAMENTO --");
                 //TODO: Iniciar tarefas abaixo desta linha
-                Database database = new Database();
-                var person = database.GetPeople().ToList();
-                var artist = database.GetArtists().ToList();
-                var songs = database.GetSongs().ToList();
-                var personSong = await database.GetPersonSongsAsync(person[j].Id);
-
-                Output output = new Output(person[j].Name,
-                    person[j].Age,
-                    songs[personSong.FavoriteSongId].Name,
-                    artist[songs[j].ArtistId].Name,
-                    songs[personSong.FavoriteSongId].Year
-                    );
+                Output output = await PreencheOutputAsync(j);
                 peopleOutpout.Add(output);
                 
 
@@ -77,6 +66,24 @@ namespace AnimatedThread
 
             Console.WriteLine("---- FINALIZADO ---");
             Console.ReadLine();
+        }
+
+        public static async Task<Output> PreencheOutputAsync(int IdPerson)
+        {
+            Database database = new Database();
+            var person = database.GetPeople().ToList();
+            var artist = database.GetArtists().ToList();
+            var songs = database.GetSongs().ToList();
+            var personSong = await database.GetPersonSongsAsync(person[IdPerson].Id);
+
+            Output output = new Output(person[IdPerson].Name,
+                person[IdPerson].Age,
+                songs[personSong.FavoriteSongId].Name,
+                artist[songs[IdPerson].ArtistId].Name,
+                songs[personSong.FavoriteSongId].Year
+                );
+
+            return output;
         }
 
         static void DrawLoopMainThread(int i, int counter)
